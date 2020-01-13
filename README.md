@@ -63,7 +63,7 @@ All our web traffic will run through this and be directed to the proper ports.
 ## **SQL PostGres script**
 
 - I've consolidated all our sql scripts into one file found here: https://github.com/county-of-simcoe-gis/SimcoeCountyWebApi/blob/master/sqlScript.sql
-- Ensure you run this on one of your databases (No PostGIS required) and we'll point to it in the WebApi below.
+- Ensure you run this on one of your databases (No PostGIS required) and we'll point to it in the WebApi below. In this guide, the database is called "tabular".
 
 ## **Web Api**
 
